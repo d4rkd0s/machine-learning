@@ -3,10 +3,21 @@ A repo that stores all my project files as I learn and perfect machine learning
 
 ## Intro
 
-Files are in order 1_****, 2_****, 3****, etc
+Files are in order 1_, 2_, 3, etc
 
 Explanation of each file can be found below.
 
+## MNIST Data Used
+
+Credit: Yann LeCun (http://yann.lecun.com/exdb/mnist/)
+
+## Reference Blog Used
+
+Credit: Colah (http://colah.github.io/posts/2014-10-Visualizing-MNIST/)
+
+## And of course Tensorflow
+
+Credit: Google AI Team (https://www.tensorflow.org/)
 
 ### 1_first_tests.py
 
@@ -20,4 +31,11 @@ This file is where I started working with NumPy and the MNIST data sets, they ar
 
 Here I started getting my feet wet with the MNIST data. Achiving ~92% accuracy with simple methods like `GradientDescentOptimizer` and `softmax regression`.
 
-### 
+### 4_mnist_softmax_regression.py
+
+I started to use Softmax Regression correctly here, with `softmax_cross_entropy_with_logits` but was still using `GradientDescentOptimizer` and only achiving low 90s for accuracy. 
+
+### 5_mnist_multilayer_convolutional_network.py
+
+Now finally I got into the meat of machine learning with the MNIST dataset utilizing far better methods like a `Multilayer Convolutional Network`. These topics and words may seem confusing but the documentation does a good job of explaining them, as well as a blog post by Colah (http://colah.github.io/posts/2014-10-Visualizing-MNIST/) which explains how even visualizing these Tensors and machine learning networks are tricky at best. There is an entire field behind this topic called `dimensionality reduction` and it's very interesting and a good path to follow if you plan on visualizing your Machine Learning programs.
+
