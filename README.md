@@ -39,3 +39,10 @@ I started to use Softmax Regression correctly here, with `softmax_cross_entropy_
 
 Now finally I got into the meat of machine learning with the MNIST dataset utilizing far better methods like a `Multilayer Convolutional Network`. These topics and words may seem confusing but the documentation does a good job of explaining them, as well as a blog post by Colah (http://colah.github.io/posts/2014-10-Visualizing-MNIST/) which explains how even visualizing these Tensors and machine learning networks are tricky at best. There is an entire field behind this topic called `dimensionality reduction` and it's very interesting and a good path to follow if you plan on visualizing your Machine Learning programs. With the `Multilayer Convolutional Network` I was able to achive 100% accuracy on 1600-1700 iterations, of course over time this dipped back into the upper 90s.
 
+### 6_openai_cartpole_test.py
+
+Start of the OpenAI gym tests, here I simply have gotten the cartpole running and am planning to write code to complete it.
+
+### 7_openai_flashgames_test.py
+
+Same as 6, here I simply have gotten flash games running and am planning to write code to complete it.
