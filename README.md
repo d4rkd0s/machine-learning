@@ -3,15 +3,27 @@ A repo that stores all my project files as I learn and perfect machine learning
 
 ## Setup
 
-Install Python3 and Pip3
+Install Python3
+
+https://www.python.org/downloads/
+
+Install pip3
+
+To install pip, securely download [get-pip.py](https://bootstrap.pypa.io/get-pip.py)
+
+Then run the following (which may require administrator access):
+
+`python3 get-pip.py`
+
+If setuptools is not already installed, get-pip.py will install setuptools for you.
 
 Install Virtualenv
 
-`pip install virtualenv`
+`pip3 install virtualenv`
 
 Create ml virtualenv
 
-`python -m venv ml`
+`python3 -m venv ml`
 
 Activate Virtualenv
 
@@ -19,7 +31,11 @@ Activate Virtualenv
 
 Install packages from requirements.txt
 
-`pip install -r requirements.txt`
+`pip3 install -r requirements.txt`
+
+When done working on this repo
+
+`deactivate`
 
 ## Intro
 
