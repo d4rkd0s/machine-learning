@@ -1,6 +1,26 @@
 # machine-learning
 A repo that stores all my project files as I learn and perfect machine learning
 
+## Setup
+
+Install Python3 and Pip3
+
+Install Virtualenv
+
+`pip install virtualenv`
+
+Create ml virtualenv
+
+`python -m venv ml`
+
+Activate Virtualenv
+
+`source ml/bin/activate`
+
+Install packages from requirements.txt
+
+`pip install -r requirements.txt`
+
 ## Intro
 
 Files are in order 1_, 2_, 3, etc
