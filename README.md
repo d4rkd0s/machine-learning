@@ -1,84 +1,13 @@
 # machine-learning
-A repo that stores all my project files as I learn and perfect machine learning
 
-## Setup
+The repository I use for writing machine learning / A.I. models and practice and advance the skill.
 
-Install Python3
+## Requirements
 
-https://www.python.org/downloads/
+Install Python3 https://www.python.org/downloads/
 
-Install pip3
+## Structure
 
-To install pip, securely download [get-pip.py](https://bootstrap.pypa.io/get-pip.py)
-
-Then run the following (which may require administrator access):
-
-`python3 get-pip.py`
-
-If setuptools is not already installed, get-pip.py will install setuptools for you.
-
-Install Virtualenv
-
-`pip3 install virtualenv`
-
-Create ml virtualenv
-
-`python3 -m venv ml`
-
-Activate Virtualenv
-
-`source ml/bin/activate`
-
-Install packages from requirements.txt
-
-`pip3 install -r requirements.txt`
-
-When done working on this repo
-
-`deactivate`
-
-## Intro
-
-Files are in order 1_, 2_, 3, etc
-
-Explanation of each file can be found below.
-
-## MNIST Data Used
-
-Credit: Yann LeCun (http://yann.lecun.com/exdb/mnist/)
-
-## Reference Blog Used
-
-Credit: Colah (http://colah.github.io/posts/2014-10-Visualizing-MNIST/)
-
-## And of course Tensorflow
-
-Credit: Google AI Team (https://www.tensorflow.org/)
-
-### 1_first_tests.py
-
-This was the first file I worked with/in that starts with importing and basic playgrounding on Tensorflow. There is a lot of print statements to make sense of it all and its a great place to start if you are reading this as an absolute begginer
-
-### 2_mnist_starting_example.py
-
-This file is where I started working with NumPy and the MNIST data sets, they are also located in this repo and if you clone and use the python scripts in this repository it will most likely utilize the ones here in this repo. (Untested). This file was majorly a copy from the Tensorflow docs on MNIST basics. It was there for me to analyze and fiddle with.
-
-###  3_mnist_first_tests.py
-
-Here I started getting my feet wet with the MNIST data. Achiving ~92% accuracy with simple methods like `GradientDescentOptimizer` and `softmax regression`.
-
-### 4_mnist_softmax_regression.py
-
-I started to use Softmax Regression correctly here, with `softmax_cross_entropy_with_logits` but was still using `GradientDescentOptimizer` and only achiving low 90s for accuracy. 
-
-### 5_mnist_multilayer_convolutional_network.py
-
-Now finally I got into the meat of machine learning with the MNIST dataset utilizing far better methods like a `Multilayer Convolutional Network`. These topics and words may seem confusing but the documentation does a good job of explaining them, as well as a blog post by Colah (http://colah.github.io/posts/2014-10-Visualizing-MNIST/) which explains how even visualizing these Tensors and machine learning networks are tricky at best. There is an entire field behind this topic called `dimensionality reduction` and it's very interesting and a good path to follow if you plan on visualizing your Machine Learning programs. With the `Multilayer Convolutional Network` I was able to achive 100% accuracy on 1600-1700 iterations, of course over time this dipped back into the upper 90s.
-
-### 6_openai_cartpole_test.py
-
-Start of the OpenAI gym tests, here I simply have gotten the cartpole running and am planning to write code to complete it.
-
-### 7_openai_flashgames_test.py
-
-Same as 6, here I simply have gotten flash games running and am planning to write code to complete it.
+data/ - refrence data, like MNIST and other sets
+models/ - saved models I've trained
+20xx-Month - folders for the year/month it was created
