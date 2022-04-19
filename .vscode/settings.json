@@ -1,3 +1,8 @@
 {
-    "python.pythonPath": "ml/bin/python3"
+    "python.pythonPath": "ml/bin/python3",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#12147c",
+        "titleBar.activeBackground": "#12147c",
+        "titleBar.activeForeground": "#d8d8d8"
+    }
 }
